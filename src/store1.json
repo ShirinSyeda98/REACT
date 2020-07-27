@@ -1,0 +1,136 @@
+{
+  "writers": [
+    {
+      "id": "samuel-johnson",
+      "name": "Samuel Johnson",
+      "birth": "1709",
+      "description": "British author best-known for his compilation of the English dictionary. Although not the first attempt at a dictionary, it was widely considered to be the most comprehensive – setting the standard for later dictionaries."
+    },
+    {
+      "id": "jane-austen",
+      "name": "Jane Austen",
+      "birth": "1775",
+      "description": "English author who wrote romantic fiction combined with social realism. Her famous novels include Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1816)."
+    },
+    {
+      "id": "charles-dickens",
+      "name": "Charles Dickens",
+      "birth": "1812",
+      "description": "Victorian novelist who created some of the most memorable characters in English Literature, while also criticising the worst excesses of Victorian society. Novels included Oliver Twist, Great Expectations and David Copperfield."
+    },
+    {
+      "id": "chetan-bhagat",
+      "name": "Chetan Bhagat",
+      "birth": "1974",
+      "description": "Cited by The New York Times in 2008 as the biggest selling English language novelist in India’s history, Chetan Bhagat is author, screenwriter, columnist and TV personality. He is known for Comedy-drama novels about young urban middle-class Indians. Some of his famous work includes Five Point Someone, 2 States, Half Girlfriend and One Indian Girl."
+    },
+    {
+      "id": "r-k-narayan",
+      "name": "R. K. Narayan",
+      "birth": "1906",
+      "description": "He was born in Chennai and due to his father’s transfers had to move around therefore changed many schools. His interest in reading was evident since a very young age and his hobby soon became a habit. He later graduated and decided to become a stay at home writer. His initial books were not that popular until his third novel, ‘The dark room’. Narayan wrote many novels after this which were published and soon became a well renowned author during his time in India."
+    },
+    {
+      "id": "rabindranath-tagore",
+      "name": " Rabindranath Tagore",
+      "birth": "1861",
+      "description": "Even though Tagore received his education in law he took great interest in Shakespeare and his literature. Therefore following his works he became a poet and author. His first poem ‘Mansai’ was published in 1890 after which he gained immense popularity amongst Bengali readers. His most significant works include ‘Gitanjali’ which was a collection of poems and ‘Galpaguchchha’ which are eighty short stories."
+    },
+    {
+      "id": "william-shakespeare",
+      "name": "William Shakespeare",
+      "birth": "1564",
+      "description": "English poet and playwright.Famous plays include Macbeth, Romeo and Juliet,Merchant of Venice and Hamlet. Shakespeare is widely considered the seminal writer of the English language."
+    },
+    {
+      "id": "jonathan-swift",
+      "name": "Jonathan Swift",
+      "birth": "1667",
+      "description": "Anglo-Irish writer born in Dublin. Swift was a prominent satirist, essayist and author. Notable works include Gulliver’s Travels (1726), A Modest Proposal and A Tale of a Tub."
+    },
+    {
+      "id": "amrita-pritam",
+      "name": "Amrita Pritam",
+      "birth": "1919",
+      "description": "Pritam indulged in poetry and literature at a very young age which influenced her to become a poet and novelist later in her life. She was a courageous woman who did not fear writing controversial texts during the pre-partition era. She suffered through tough times during the partition of India which influenced her to write the Punjabi novel ‘Pinjar’ (skeleton) which describes the helplessness of the women during that era and the discrimination they had to go through. The novel later was made into a Bollywood movie which was a hit throughout the nation."
+    },
+    {
+      "id": "jhumpa-lahiri",
+      "name": "Jhumpa Lahiri",
+      "birth": "1967",
+      "description": "Laihiri is well known for her novels, essays and short stories. She was born in London but relocated to the United States to get her education from the Barnard College. She went ahead for her masters and attained her degree from the Boston University. She was a struggling writer and her work was initially rejected by the publishers until her biggest success, ‘The interpreter of Maladies’. This was a compilation of all her short stories about the life of immigrants in post-partition India. After the runaway success she wrote many other novels which are famous throughout the Indian continent and the world. Some of the most famous ones being; The namesake, Unaccustomed Earth and The lowland."
+    }
+  ],
+  "texts": [
+    {
+      "id": "a-journey-to-the-western-islands-of-scotland",
+      "writerId": "samuel-johnson",
+      "title": "A Journey to the Western Islands of Scotland",
+      "description": "DescriptionA Journey to the Western Islands of Scotland is a travel narrative by Samuel Johnson about an eighty-three-day journey through Scotland, in particular the islands of the Hebrides, in the late summer and autumn of 1773",
+      "published": "1973"
+    },
+    {
+      "id": "pride-and-prejudice",
+      "writerId": "jane-austen",
+      "title": "Pride and Prejudice",
+      "description": "Pride and Prejudice is a romantic novel of manners written by Jane Austen in 1813. The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness. Its humour lies in its honest depiction of manners, education, marriage, and money during the Regency era in Great Britain.",
+      "published": "1813"
+    },
+    {
+      "id": "oliver-twist",
+      "writerId": "charles-dickens",
+      "title": "Oliver Twist",
+      "description": "Oliver Twist; or, the Parish Boy's Progress is Charles Dickens's second novel, and was published as a serial from 1837 to 1839 and released as a three-volume book in 1838, before the serialization ended. The story centres on orphan Oliver Twist, born in a workhouse and sold into apprenticeship with an undertaker.",
+      "published": "1838"
+    },
+    {
+      "id": "2-states",
+      "writerId": "chetan-bhagat",
+      "title": "2 States",
+      "description": "2 States: The Story of My Marriage commonly known as 2 States is a 2009 novel written by Chetan Bhagat. It is the story about a couple coming from two different states in India, who face hardships in convincing their parents to approve of their marriage.",
+      "published": "2009"
+    },
+    {
+      "id": "the-guide",
+      "writerId": "r-k-narayan",
+      "title": "The Guide",
+      "description": "The Guide is a 1958 novel written in English by the Indian author R. K. Narayan. Like most of his works the novel is based on Malgudi, the fictional town in South India.",
+      "published": "1958"
+    },
+    {
+      "id": "the-post-office",
+      "writerId": "rabindranath-tagore",
+      "title": "The Post Office",
+      "description": "The Post Office is a 1912 play by Rabindranath Tagore. It concerns Amal, a child confined to his adoptive uncle's home by an incurable disease. W. Andrew Robinson and Krishna Dutta note that the play continues to occupy a special place in [Tagore's] reputation, both within Bengal and in the wider world.",
+      "published": "1912"
+    },
+    {
+      "id": "four-tragedies",
+      "writerId": "william-shakespeare",
+      "title": "Four Tragedies",
+      "description": "Hamlet One of the most famous plays of all time, the compelling tragedy of the young prince of Denmark who must reconcile his longing for oblivion with his duty to avenge his father's murder is one of Shakespeare's greatest works.",
+      "published": "1998"
+    },
+    {
+      "id": "gulliver's-travels",
+      "writerId": "jonathan-swift",
+      "title": "Gulliver`s Travels",
+      "description": "Gulliver's Travels, or Travels into Several Remote Nations of the World. In Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of Several Ships is a 1726 prose satire by the Irish writer and clergyman Jonathan Swift, satirising both human nature and the travellers' tales literary subgenre.",
+      "published": "1726"
+    },
+    {
+      "id": "raseedi-ticket",
+      "writerId": "amrita-pritam",
+      "title": "Raseedi Ticket",
+      "description": "Khushwant Singh once told Amrita Pritam that the story of her life was so inconsequential and tiny that it could be written at the back of a revenue stamp. Keeping this joke in mind, Amrita Pritam penned her autobiography and entitled it 'Raseedi Ticket', or The Revenue Stamp.",
+      "published": "1976"
+    },
+    {
+      "id": "interpreter-of-maladies",
+      "writerId": "jhumpa-lahiri",
+      "title": "Interpreter of Maladies",
+      "description": "Interpreter of Maladies is a book collection of nine short stories by American author of Indian origin Jhumpa Lahiri published in 1999. It won the Pulitzer Prize for Fiction and the Hemingway Foundation/PEN Award in the year 2000 and has sold over 15 million copies worldwide",
+      "published": "1999"
+    }
+  ]
+}
