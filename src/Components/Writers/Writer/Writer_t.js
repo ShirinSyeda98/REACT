@@ -1,33 +1,37 @@
-import React, { Fragment } from "react";
-import { Link, Route, Redirect } from "react-router-dom";
-import Text from "./Text/text";
+import React, { Fragment, useEffect, useState } from 'react'
+import { Link, Route } from 'react-router-dom'
+import Text from './Text/text'
 
-const Writert = ({ match: { url }, name, birth, description, texts }) => (
-  <Fragment>
-    <h2>{name}</h2>
-    <h3>{birth}</h3>
-    <p>{description}</p>
+const Writert = (props) => {
+  const [writer, setWriter] = useState('')
 
-    <ul>
-      {texts.map(({ id, title }) => (
-        <li key={id}>
-          <Link to={`${url}/texts/${id}`}>{title}</Link>
-        </li>
-      ))}
-    </ul>
+  useEffect(() => {
+    const writer = props.writers.find((writer) => {
+      return writer.id === props.match.params.writerId;
+    });
+    console.log(props.match.params);
+    setWriter(writer)
+  }, [props.match.params, props.writers])
 
-    <Route
-      path={`${url}/texts/:textId`}
-      render={(props) => {
-        const text = texts.find(({ id }) => id === props.match.params.textId);
-        console.log(text);
-        if (!text) {
-          return <Redirect to="/404" />;
-        }
-        return <Text {...text} />;
-      }}
-    />
-  </Fragment>
-);
+  return (
+    writer ? <Fragment>
+      <h2>{writer.name}</h2>
+      <h3>{writer.birth}</h3>
+      <p>{writer.description}</p>
+      <ul>
+        {writer.texts.map(({ id, title }) => (
+          <li key={id}>
+            <Link to={`${props.match.url}/texts/${id}`}>{title}</Link>
+          </li>
+        ))}
+      </ul>
+      <Route
+        path={`${props.match.url}/texts/:textId`}
+        exact
+        render={props => <Text {...props} texts={writer.texts} />}
+      /> 
+    </Fragment> : ''
+  )
+}
 
-export default Writert;
+export default Writert

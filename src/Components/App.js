@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Link, Route, Switch, Redirect } from "react-router-dom";
 import Writersw from "./Writers/Writer_w";
 
 import axios from "axios";
@@ -43,8 +43,8 @@ const App = () => {
           path="/Writers"
           render={(props) => <Writersw {...props} writers={writers} />}
         />
-
-        <Route component={() => <h3>Not Found</h3>} />
+        <Route path='/error' exact component={() => <h3>Not Found</h3>} />
+        <Redirect to='/error' />
       </Switch>
     </BrowserRouter>
   );
